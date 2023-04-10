@@ -1,17 +1,269 @@
-/* Error: expected "{".
- *    ,
- * 13 | @import "mapa";
- *    |               ^
- *    '
- *   scss\style.scss 13:15  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 13 \2502  @import "mapa";\d\a    \2502                ^\a    \2575 \a   scss\\style.scss 13:15  root stylesheet';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.row, .container, .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.navegador ul {
+  list-style: none;
+  justify-content: space-between;
+}
+.navegador ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*
+ @media(max-width:500px){
+    ul{
+        flex-direction: column;
+        ali
+    }
+ }   
+   */
+/*.navegador-items{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+
+
+
+
+}
+
+.navegador-items .ul .li .a{
+    color: black;
+    background: fixed;
+
+}
+*/
+.contenedor-titulo {
+  background-color: #1c059e;
+}
+
+.contenedor-titulo {
+  width: 100%;
+  background-color: #1c059e;
+}
+
+.titulo_inicio {
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.Span_titulo {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Titulo de la pagina inicio*/
+/* Presentacion Inicio*/
+.contenedor-pag-inicio {
+  background-color: #1c059e;
+  justify-content: center;
+}
+.contenedor-pag-inicio .titulo {
+  color: white;
+  text-align: center;
+}
+.contenedor-pag-inicio .descripcion {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*Presentacion Inicio*/
+.contenedor-cuadro-ayuda {
+  width: 100%;
+  height: 350px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(121, 119, 119);
+  border-radius: 5px;
+  color: #1c059e;
+  font-size: 20px;
+}
+
+.boton-compra {
+  background-color: white;
+  color: white;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #1c059e;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.rede {
+  color: white;
+  margin: 5px;
+}
+
+.iconos {
+  color: white;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.items-footer {
+  color: white;
+  font-size: 20px;
+}
+
+.titulo-contacto {
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: #1c059e;
+}
+
+.imagen-contacto {
+  width: 3oopx;
+  height: 300px;
+}
+
+.formulario {
+  width: 100%;
+  height: 300px;
+  margin: 5px;
+  background-color: rgb(121, 119, 119);
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px;
+  grid-template-areas: "nombre          telefono" "mail              asunto" "ingresecomentario   ingresecomentario    " "button               button";
+}
+
+.nombre {
+  grid-area: nombre;
+}
+
+.telefono {
+  grid-area: telefono;
+}
+
+.mail {
+  grid-area: mail;
+}
+
+.asunto {
+  grid-area: asunto;
+}
+
+.ingresecomentario {
+  grid-area: ingresecomentario;
+}
+
+.button {
+  grid-area: button;
+  color: white;
+  background-color: #1c059e;
+  border-radius: 1px;
+}
+
+.contenedor-productos {
+  background-color: #c0fcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-producto {
+  background-color: #1c059e;
+  color: white;
+  margin: 1px;
+  padding: 2px;
+}
+
+.producto {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  column-gap: 5px;
+}
+
+.info-producto {
+  width: 150px;
+  height: 200px;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+  margin: 0px;
+}
+
+.boton-compra {
+  margin-bottom: 5px;
+}
+
+/*sobre nosotros*/
+.contenedor-nosotros {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background-color: #1c059e;
+}
+
+.cuadro-1 {
+  display: grid;
+  grid-template-columns: 300px 500px;
+  grid-template-areas: "titulo-cuadro     parrafo-cuadro-1" "imagen-sobren    parrafo-cuadro ";
+}
+
+.titulo-cuadro {
+  grid-area: titulo-cuadro;
+  color: white;
+}
+
+.parrafo-cuadro-1 {
+  grid-area: parrafo-cuadro-1;
+}
+
+.imagen-sobren {
+  width: 200px;
+  grid-area: imagen-sobren;
+}
+
+.parrafo-cuadro {
+  grid-area: parrafo-cuadro;
+  color: white;
+}
+
+/* sobre nosotros*/
+.contenedor-casa-central {
+  background-color: #1c059e;
+  color: white;
+  text-align: center;
+}
+
+.mapa {
+  width: 100%;
+}
+
+.boton-compra, .button {
+  width: 150px;
+  height: 40px;
+  padding: 1px 1px 1px 1px;
+  justify-content: center;
+  align-content: center;
+  border-radius: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
