@@ -1,0 +1,32 @@
+
+/*sobre nosotros*/
+.contenedor-nosotros{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: #1c059e;
+  
+}
+.cuadro-1{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-areas:"titulo-cuadro     parrafo-cuadro-1" 
+                         "imagen-sobren    parrafo-cuadro ";
+} 
+.titulo-cuadro {
+    grid-area: titulo-cuadro ;
+    color: white;
+}
+.parrafo-cuadro-1{
+    grid-area: parrafo-cuadro-1;
+    
+}
+
+.imagen-sobren{
+    width: 200px;
+    grid-area:imagen-sobren ;
+}
+.parrafo-cuadro {
+    grid-area:parrafo-cuadro  ;
+    color: white;
+}
+/* sobre nosotros*/

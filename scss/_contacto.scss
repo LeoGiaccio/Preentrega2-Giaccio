@@ -1,0 +1,57 @@
+
+.titulo-contacto{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color:#1c059e  ;   
+ }
+ .imagen-contacto{
+    width: 3oopx;
+    height: 300px;
+    
+ }
+ .formulario{
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+    background-color:  rgb(121, 119, 119);
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns:200px 200px;
+    grid-template-areas:
+                        "nombre          telefono" 
+                        "mail              asunto"                      
+                        "ingresecomentario   ingresecomentario    "
+                       
+                        "button               button";
+
+                        
+}
+.nombre{
+    grid-area: nombre;
+}
+.telefono{
+    grid-area: telefono;
+}
+.mail{
+    grid-area: mail;
+}
+.asunto{
+    grid-area:asunto ;
+}
+.ingresecomentario{
+    grid-area:ingresecomentario  ;
+}
+
+.button{
+    grid-area: button;
+    @extend %btn;
+    color: white;
+    background-color:map-get($color, color1 );
+    border-radius: 1px;
+}
+

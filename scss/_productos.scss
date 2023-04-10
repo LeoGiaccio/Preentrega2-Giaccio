@@ -1,0 +1,32 @@
+
+/*Productos*/
+.contenedor-productos{
+    background-color: #c0fcfc;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.titulo-producto{
+    background-color: #1c059e;
+    color: white;
+    margin: 1px;
+    padding: 2px;
+}
+.producto{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    column-gap: 5px;
+}
+.info-producto{
+    width: 150px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin: 0px;
+}
+.boton-compra{
+    margin-bottom: 5px;
+
+
+}

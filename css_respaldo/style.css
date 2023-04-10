@@ -1,0 +1,233 @@
+/*titulo de la pagina
+.contenedor-titulo{
+    background-color: #1c059e;
+}
+
+
+.titulo_inicio{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin-left: 400px;
+    
+   
+    color: black;
+}
+.Span_titulo{
+    color: white;
+}
+*/
+/*Barra de navegacion
+.navegador{   
+    list-style: none;
+
+}
+.navegador-items{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+    
+.navegador-items .ul .li .a{
+    color: black;
+    background: fixed;   
+}
+
+*/
+
+
+/* Presentacion Inicio
+.contenedor-pag-inicio{
+    background-color:#1c059e ;
+    justify-content: center;
+    .titulo{
+        color: white;
+        margin-left: 450px;
+    }
+    .descripcion{
+        color: white;
+        font-size: 20px;
+        padding-left: 200px;
+    } 
+}
+*/
+
+/*cuadro de ayuda
+.contenedor-cuadro-ayuda{
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+    justify-content: center;
+    background-color: rgb(121, 119, 119);
+    border-radius: 5px;
+    color: white;
+    margin-left: 350px;
+    font-size: 20px;
+}
+cuadro de ayuda*/
+
+/* Botones
+.boton-compra{
+    width: 150px;
+    height:30px ;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    background-color: #1c059e;
+    color: white;
+}
+botones*/
+
+/*footer
+
+.footer{
+    padding: 5px;
+    background-color: #1c059e ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+ .rede{
+    color: white;
+    margin: 5px;
+ }
+ .iconos{
+    color: white;
+    font-size: 40px;
+    margin-left: 5px;
+    
+   
+ }
+ .items-footer{
+    color: white;
+    font-size: 20px;
+    
+ }
+*/
+
+ /* contacto
+ .titulo-contacto{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color:#1c059e  ;   
+ }
+ .imagen-contacto{
+    width: 3oopx;
+    height: 300px;
+    
+ }
+ .formulario{
+    width: 450px;
+    height: 300px;
+    margin: 5px;
+    background-color:  rgb(121, 119, 119);
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 200px 200px;
+    grid-template-areas:
+                        "nombrecompleto   nomapellido" 
+                        "mail               mail"
+                        "telefono              numero"
+                        "asunto                asunto"
+                        "ingresecomentario       text"
+                       
+                        "button               enviar";
+
+
+}
+.button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #1c059e;
+    border-radius: 1px;
+}
+    */
+    /*Productos
+.contenedor-productos{
+    background-color: #c0fcfc;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+    
+
+    
+
+
+.titulo-producto{
+    background-color: #1c059e;
+    color: white;
+    margin: 1px;
+    padding: 2px;
+}
+.producto{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    column-gap: 5px;
+}
+.info-producto{
+    width: 150px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin: 0px;
+}
+.boton-compra{
+    margin-bottom: 5px;
+}
+*/
+/*sobre nosotros
+.contenedor-nosotros{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: #1c059e;
+  
+}
+.cuadro-1{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-areas:"titulo-cuadro     parrafo-cuadro-1" 
+                         "imagen-sobren    parrafo-cuadro ";
+} 
+.titulo-cuadro {
+    grid-area: titulo-cuadro ;
+    color: white;
+}
+.parrafo-cuadro-1{
+    grid-area: parrafo-cuadro-1;
+    
+}
+
+.imagen-sobren{
+    width: 200px;
+    grid-area:imagen-sobren ;
+}
+.parrafo-cuadro {
+    grid-area:parrafo-cuadro  ;
+    color: white;
+}
+*/
+/* sobre nosotros
+.contenedor-casa-central{
+    background-color: #1c059e;
+    color: white;
+    text-align: center;
+}
+.mapa{
+    width: 100%;
+}
+    */
+    

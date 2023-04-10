@@ -10,127 +10,109 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="navegador">
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/Contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/Productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/Sobre-nosotros.html" >Sobre Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/Ubicacion.html" >Ubicacion</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            </div>
-          </nav>
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../multimedia/imagenes portada/interior-large-distribution-warehouse-with-shelves-stacked-with-palettes-goods-ready-market (1).jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../multimedia/imagenes portada/portrait-factory-worker-protective-equipment-holding-thumbs-up-production-hall.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../multimedia/imagenes portada/worker-operating-forklift-machine-relocating-goods-large-warehouse-center.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+  <header>
+    <div class="contenedor-titulo">
+        <h1 class="titulo_inicio">Distribuidora <span class="Span_titulo"> La Union</span></h1>
+    </div> 
 
-       
-    </header>
-
-
-    <main>
-      <form  class="formulario" action="">
-      <h2>Contactanos</h2>
+    <nav class="navegador d-flex  justify-content-center justify-content-sm-center aling-items-center">
+          
+          
+      <ul class="d-flex flex-column flex-sm-row aling-items-center">
+        <li><a href="../index.html" class=" d-block">Inicio</a></li>
+        <li><a href="../paginas/Contacto.html" class=" d-block">Contacto</a></li>
+        <li><a href="../paginas/Productos.html" class="d-block">Productos</a></li>
+        <li><a href="../paginas/Sobre-nosotros.html" class="d-block">Sobre Nosotros</a></li>
+        <li><a href="../paginas/Ubicacion.html" class=" ">Ubicacion</a></li>
+      </ul>
+   
+  </nav>
     
-      <label >
-        Nombre Completo <input type="text" name="NomApelli" required>
-      </label>
-      <label >
-        Mail<input type="email" name="Mail" required>
-      </label>
-      <label >
-        Telefono<input type="tel" name="Numero" required>
-      </label>
-      <label >
-        Asunto<input type="text" name="Asunto" required>
-      </label>
-      <label >
-        Ingrese Comentario <input type="text" name="texto" required>
-      </label>
-      <button type="submit" class="button">Enviar</button>
+  </header>   
+
+  <main>
+    <img class="imagen-contacto" src="../multimedia/imagenes de contacto/fotor_2023-4-9_7_17_57.jpg" alt="" >
+    <div class="titulo-contacto" ><h2  >Contactanos:</h2></div>
+    <divd-flex flex-column flex-sm-row aling-items-center >
+    <form  class="formulario" action=""  >  
+       <div d-block>
+          <label class="nombre">
+              Nombre Completo <input type="text" name="NomApelli" required >
+            </label>
+      </div> 
+      <div class=" d-block">
+        <label class="mail">
+          Mail<input type="email" name="Mail" required>
+        </label>
+      </div>
+        <div class=" d-block">
+        <label class="Telefono">
+          Telefono<input type="tel" name="Numero" required>
+        </label>
+      </div>
+      <div class=" d-block">
+        <label class="asunto">
+          Asunto<input type="text" name="Asunto" required>
+        </label>
+      </div>
+      <div class=" d-block">
+        <label class="Comentario">
+          Ingrese Comentario <input type="text" name="texto" required>
+        </label >
+      </div>
+      
+        <button type="submit" class="button">Enviar</button>
+      
     </form>
-    </main>
-
-
-    <footer class="footer" >
-      <div class="Distribuidoras">
-          <h2>Distribuidora </h2>
-          <h3>La Union</h3>
-          <p>Distribuidora de bebidas y alimentos</p>
+  </div> 
+  </main>
+  <footer >
+    <div class="footer" >
+          <div class="Distribuidoras">
+              <h2>Distribuidora </h2>
+              <h3> La Union</h3>
+          <div><i class="fa-solid fa-truck"></i> </div>
+              
+              <p>Distribuidora de bebidas y alimentos</p>
           <div class="redes">
-              <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i> </a>
-              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://es-la.facebook.com/" class="iconos"><i class="fa-brands fa-facebook"></i> </a>
+              <a href="https://www.instagram.com/" class="iconos"><i class="fa-brands fa-instagram"></i></a>
               <p> © 2023 Distribuidora La Union </p>
+          </div>    
+     <div class="row">        
+          <div class="col-4">
+                <h4> Sucursal La Plata </h4>
+                <div >
+                  <ul>
+                      <li><a href="" class="items-footer"><i class="fa-solid fa-location-crosshairs"></i>Ubicacion</a></li>
+                      <li><a href="" class="items-footer"><i class="fa-regular fa-address-book"></i>Telefono</a></li>
+                      <li><a href=""class="items-footer" ><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
+                  </ul>
+                </div> 
           </div>
-
-      </div>
-      <div class="sucursales">
-        <div>
-          <h4> Sucursal</h4>
-          <h5> La Plata</h5>
-          <ul>
-              <li><a href=""><i class="fa-solid fa-location-crosshairs"></i>Ubicacion</a></li>
-              <li><a href=""><i class="fa-regular fa-address-book"></i>Telefono</a></li>
-              <li><a href=""><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Sucursal Quilmes</h3>
-          <ul>
-              <li><a href=""><i class="fa-solid fa-location-crosshairs"></i>Ubicacion</a></li>
-              <li><a href=""><i class="fa-regular fa-address-book"></i>Telefono</a></li>
-              <li><a href=""><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Sucursal Abasto</h3>
-          <ul>
-              <li><a href=""><i class="fa-solid fa-location-crosshairs"></i>Ubicacion</a></li>
-              <li><a href=""><i class="fa-regular fa-address-book"></i>Telefono</a></li>
-              <li><a href=""><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
-          </ul>
-        </div>
-      </div>
-
+          <div class="col-4">
+                <h3>Sucursal Quilmes</h3>
+                <ul>
+                    <li><a href=""class="items-footer" ><i class="fa-solid fa-location-crosshairs"></i>Ubicacion</a></li>
+                    <li><a href=""class="items-footer"><i class="fa-regular fa-address-book"></i>Telefono</a></li>
+                    <li><a href=""class="items-footer"><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
+                </ul>
+          </div>
+          <div class="col-4">
+                  <h3>Sucursal Abasto</h3>
+                  <ul>
+                
+                    <li><a href=""class="items-footer"><i class="fa-solid fa-location-crosshairs"></i>Ubicacion</a></li>
+                    <li><a href=""class="items-footer"><i class="fa-regular fa-address-book"></i>Telefono</a></li>
+                    <li><a href=""class="items-footer"><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
+                
+                  </ul>
+          </div>
+       </div>
+    </div>
   </footer>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
 </body>
 </html>
