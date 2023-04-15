@@ -9,6 +9,9 @@
   padding: 0;
 }
 
+.navegador {
+  background-color: #4829f8;
+}
 .navegador ul {
   list-style: none;
   justify-content: space-between;
@@ -17,6 +20,7 @@
   padding: 10px 20px;
   text-decoration: none;
   font-size: 20px;
+  color: white;
 }
 
 /*
@@ -75,6 +79,7 @@
 .contenedor-pag-inicio {
   background-color: #1c059e;
   justify-content: center;
+  padding: 2px;
 }
 .contenedor-pag-inicio .titulo {
   color: white;
@@ -85,22 +90,46 @@
   font-size: 20px;
   text-align: center;
 }
+.contenedor-pag-inicio .descripcion {
+  color: white;
+  text-align: center;
+  margin: 2px;
+}
 
 /*Presentacion Inicio*/
 .contenedor-cuadro-ayuda {
-  width: 100%;
-  height: 350px;
+  width: 350px;
+  height: 250px;
   padding: 5px;
+  margin-left: 450px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(121, 119, 119);
+  background-color: rgb(7, 63, 218);
+  border: solid;
   border-radius: 5px;
-  color: #1c059e;
+  border-color: white;
+  color: white;
   font-size: 20px;
 }
+.contenedor-cuadro-ayuda .parrafo-ayuda {
+  min-height: 60px;
+}
 
+@media (max-width: 850px) {
+  .contenedor-cuadro-ayuda {
+    min-height: 60px;
+    margin: 180px;
+    width: 350px;
+  }
+}
+@media (max-width: 500px) {
+  .contenedor-cuadro-ayuda {
+    margin: 0;
+    width: 100%;
+  }
+}
 .boton-compra {
-  background-color: white;
+  background-color: #1c059e;
   color: white;
 }
 
@@ -128,6 +157,17 @@
   font-size: 20px;
 }
 
+.imagen-contacto {
+  width: 3oopx;
+  height: 300px;
+}
+
+@media (max-width: 500px) {
+  .imagen-contacto {
+    width: 100%;
+    height: 300px;
+  }
+}
 .titulo-contacto {
   width: 100%;
   height: 40px;
@@ -135,15 +175,10 @@
   background-color: #1c059e;
 }
 
-.imagen-contacto {
-  width: 3oopx;
-  height: 300px;
-}
-
 .formulario {
-  width: 100%;
+  width: 500px;
   height: 300px;
-  margin: 5px;
+  margin-left: 450px;
   background-color: rgb(121, 119, 119);
   font-size: 18px;
   color: white;
@@ -181,47 +216,91 @@
   border-radius: 1px;
 }
 
-.contenedor-productos {
-  background-color: #c0fcfc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 700px) {
+  .formulario {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .formulario .button {
+    margin-top: 20px;
+  }
 }
-
 .titulo-producto {
   background-color: #1c059e;
   color: white;
   margin: 1px;
   padding: 2px;
+  text-align: center;
 }
 
-.producto {
-  width: 300px;
-  height: 300px;
+.contenedor-productos {
+  background-color: rgb(7, 63, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.tarjeta-producto {
+  height: 450px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+}
+.tarjeta-producto .producto {
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   column-gap: 5px;
 }
 
 .info-producto {
   width: 150px;
-  height: 200px;
+  height: 150px;
   font-family: "Times New Roman", Times, serif;
   justify-content: center;
   margin: 0px;
 }
-
-.boton-compra {
+.info-producto .boton-compra {
   margin-bottom: 5px;
 }
 
+@media (max-width: 850px) {
+  .tarjeta-producto {
+    width: 50%;
+    height: 450px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+  }
+}
+@media (max-width: 600px) {
+  .tarjeta-producto {
+    width: 100%;
+    height: 450px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+  }
+}
 /*sobre nosotros*/
 .contenedor-nosotros {
   margin-left: 5px;
   margin-bottom: 5px;
   background-color: #1c059e;
+  padding: 1px;
 }
 
 .cuadro-1 {
+  border: solid;
+  border-radius: 1px;
+  border-color: white;
   display: grid;
   grid-template-columns: 300px 500px;
   grid-template-areas: "titulo-cuadro     parrafo-cuadro-1" "imagen-sobren    parrafo-cuadro ";
@@ -246,6 +325,11 @@
   color: white;
 }
 
+@media (max-width: 800px) {
+  .contenedor-nosotros {
+    width: 100%;
+  }
+}
 /* sobre nosotros*/
 .contenedor-casa-central {
   background-color: #1c059e;
@@ -254,9 +338,20 @@
 }
 
 .mapa {
-  width: 100%;
+  width: 600px;
+  object-fit: cover;
 }
 
+@media (max-width: 700px) {
+  .mapa {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .mapa {
+    width: 100%;
+  }
+}
 .boton-compra, .button {
   width: 150px;
   height: 40px;
@@ -264,6 +359,18 @@
   justify-content: center;
   align-content: center;
   border-radius: 1px;
+}
+
+.imagen-ubicacion {
+  width: 450px;
+  height: 300px;
+}
+
+@media (max-width: 500px) {
+  .imagen-ubicacion {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,13 @@
 
 .mapa{
-    width: 100%;
+    width: 600px;
+    object-fit: cover;
 }
+@media (max-width:700px){
+    .mapa{width:400px
+    }}
+    @media (max-width:500px){
+        .mapa{
+            width: 100%;
+        }  
+    } 

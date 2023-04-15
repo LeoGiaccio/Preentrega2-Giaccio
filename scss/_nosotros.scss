@@ -4,9 +4,13 @@
     margin-left: 5px;
     margin-bottom: 5px;
     background-color: #1c059e;
+    padding: 1px;
   
 }
 .cuadro-1{
+    border: solid;
+    border-radius: 1px;
+    border-color: white;
     display: grid;
     grid-template-columns: 300px 500px;
     grid-template-areas:"titulo-cuadro     parrafo-cuadro-1" 
@@ -28,5 +32,10 @@
 .parrafo-cuadro {
     grid-area:parrafo-cuadro  ;
     color: white;
+}
+@media(max-width:800px){
+    .contenedor-nosotros{
+        width: 100%;
+    }
 }
 /* sobre nosotros*/
