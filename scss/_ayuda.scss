@@ -3,7 +3,7 @@
     width: 350px;
     height: 250px;
     padding: 5px;
-  margin-left: 450px;
+    margin-left: 450px;
     justify-content: center;
     align-items: center;
     background-color:map-get($color , color5 );
@@ -12,10 +12,9 @@
     border-color:map-get($color , color2) ;
     color: map-get($color , color2);  
     font-size: 20px;
-    .parrafo-ayuda{
+     .parrafo-ayuda{
         min-height: 60px;
-    }
-   
+     }   
 }
 @media (max-width:850px){
     .contenedor-cuadro-ayuda{

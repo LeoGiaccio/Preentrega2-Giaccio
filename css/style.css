@@ -16,8 +16,9 @@
   border-radius: 2px;
   border-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
+  padding-right: 5px;
 }
 .navegador ul {
   list-style: none;
@@ -44,6 +45,7 @@
     align-items: end;
     color: white;
     justify-content: end;
+    justify-content: left;
   }
   .navegador .fa-bars:hover + ul {
     right: 0;
@@ -59,6 +61,8 @@
     height: 300px;
     z-index: 5;
     background-color: #1c059e;
+    list-style: none;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     padding: 1px;
@@ -71,36 +75,14 @@
     padding: 10px 0;
   }
 }
-/*.navegador-items{
-    color: black;
-    font-size: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   font-family: 'Times New Roman', Times, serif;
-    list-style: none;
-
-
-
-
-}
-
-.navegador-items .ul .li .a{
-    color: black;
-    background: fixed;
-
-}
-*/
 .contenedor-titulo {
   background-color: #1c059e;
 }
-
-.contenedor-titulo {
+.contenedor-titulo .contenedor-titulo {
   width: 100%;
   background-color: #1c059e;
 }
-
-.titulo_inicio {
+.contenedor-titulo .titulo_inicio {
   width: 100%;
   height: 50px;
   justify-content: center;
@@ -108,13 +90,11 @@
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
-
-.Span_titulo {
+.contenedor-titulo .Span_titulo {
   color: white;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Titulo de la pagina inicio*/
 /* Presentacion Inicio*/
 .contenedor-pag-inicio {
   background-color: #1c059e;
@@ -368,6 +348,31 @@
 @media (max-width: 800px) {
   .contenedor-nosotros {
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .cuadro-1 {
+    border: solid;
+    border-radius: 1px;
+    border-color: white;
+    display: grid;
+    grid-template-columns: 150px 200px;
+    grid-template-areas: "titulo-cuadro     parrafo-cuadro-1" "imagen-sobren    parrafo-cuadro ";
+  }
+  .titulo-cuadro {
+    grid-area: titulo-cuadro;
+    color: white;
+  }
+  .parrafo-cuadro-1 {
+    grid-area: parrafo-cuadro-1;
+  }
+  .imagen-sobren {
+    width: 200px;
+    grid-area: imagen-sobren;
+  }
+  .parrafo-cuadro {
+    grid-area: parrafo-cuadro;
+    color: white;
   }
 }
 /* sobre nosotros*/

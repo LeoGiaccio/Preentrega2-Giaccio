@@ -4,8 +4,7 @@
     margin-left: 5px;
     margin-bottom: 5px;
     background-color: #1c059e;
-    padding: 1px;
-  
+    padding: 1px; 
 }
 .cuadro-1{
     border: solid;
@@ -21,10 +20,8 @@
     color: white;
 }
 .parrafo-cuadro-1{
-    grid-area: parrafo-cuadro-1;
-    
+    grid-area: parrafo-cuadro-1;   
 }
-
 .imagen-sobren{
     width: 200px;
     grid-area:imagen-sobren ;
@@ -37,5 +34,31 @@
     .contenedor-nosotros{
         width: 100%;
     }
+}
+@media(max-width:800px){
+    .cuadro-1{
+    border: solid;
+    border-radius: 1px;
+    border-color: white;
+    display: grid;
+    grid-template-columns: 150px 200px;
+    grid-template-areas:"titulo-cuadro     parrafo-cuadro-1" 
+                         "imagen-sobren    parrafo-cuadro ";
+} 
+.titulo-cuadro {
+    grid-area: titulo-cuadro ;
+    color: white;
+}
+.parrafo-cuadro-1{
+    grid-area: parrafo-cuadro-1;    
+}
+.imagen-sobren{
+    width: 200px;
+    grid-area:imagen-sobren ;
+}
+.parrafo-cuadro {
+    grid-area:parrafo-cuadro  ;
+    color: white;
+}
 }
 /* sobre nosotros*/
